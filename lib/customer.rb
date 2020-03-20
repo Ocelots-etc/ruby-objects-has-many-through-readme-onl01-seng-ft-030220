@@ -25,7 +25,7 @@ class Customer
       meal.waiter
     end
   end
-  
+
   def self.all
     @@all
   end
