@@ -16,7 +16,6 @@ class Waiter
 
   def meals
     Meal.all.select { |meal| meal.waiter == self } #checking for waiter now
-    end
   end
 
   def self.all
