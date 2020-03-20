@@ -41,7 +41,6 @@ class Customer
     oldest_customer
   end
 
-
   def self.all
     @@all
   end
